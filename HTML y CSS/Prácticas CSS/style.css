@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800;900&display=swap"); /* * Importamos la fuente a utilizar */
+
+* {
+  /* *Estas reglas son convenciones para resetear el comportamiento de los elementos. */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* *Se definen variables que utilizamos mucho en la página */
+  /* Backgrounds */
+  --primary-bg: #131415;
+  --secondary-bg: #282828;
+  --semi-black: #17191b;
+  --semi-gray: #6b7280;
+  --light-gray: #9ca3af;
+
+  /* Texts */
+  --dark-white: #e5e7eb;
+  --semi-white: #f9fafb;
+  --text-white: #f3f4f6;
+  --white: #fff;
+
+  /* Decoration */
+  --rose: #e11d48;
+  --light-red: #ff005c;
+  --purple: #8c54fb;
+}
+
+body {
+  background-color: var(--primary-bg);
+  color: var(--semi-white);
+  font-family: "Poppins", sans-serif;
+  padding: 3rem; /* *padding es el espacio entre el contenido y el borde, rem es una unidad de medida en píxeles, 3*px que tengo */
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 800; /* * qué tan grueso es el título */
+  margin-bottom: 2rem; /* *distancia entre los demás elementos de abajo */
+}
+
+h2 {
+  color: var(--purple);
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+h3 {
+  color: var(--rose);
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+
+p {
+  max-width: 950px; /* *para que sea responsive, seteo en 950px para que nunca se pase de esa medida  */
+  color: var(--text-white);
+  margin-left: 1rem;
+}
+
+.list {
+  list-style-type: none; /* *la lista va a tener puntos invisibles */
+}
+
+.ejemplo {
+  color: var(--text-white);
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+  background-color: var(--semi-gray);
+  border-radius: 10px;
+  padding: 5px;
+  width: fit-content;
+}
+
+.caja {
+  margin-left: 3rem; /* identando xd */
+  width: 100px; /* ancho */
+  height: 100px; /* alto */
+  text-align: center;
+  border-radius: 16px; /* para redondear las esquinas */
+  margin-bottom: 1rem;
+  background-color: var(--light-gray);
+}
+
+.espacio {
+  margin-bottom: 3rem;
+}
+
+.bg-color {
+  background-color: crimson;
+}
+
+.bg-img {
+  background-image: url(./images/shogun.webp);
+  background-position: center; /* *para centrar la imagen */
+  background-size: cover; /* *para centrar la imagen, usamos estos dos juntos para que quede en un recuadro */
+}
+
+.bg-repeat {
+  background-image: url(./images/shogun.webp);
+  background-repeat: repeat; /* Si la caja es màs grande, se repite la imagen */
+}
+
+.bg-attachment {
+  background-image: url(./images/neuvillette.webp);
+  background-attachment: fixed;
+}
+
+.bg-position {
+  background-image: url(./images/neuvilletitio.gif);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-size {
+  /* *OTRA FORMA DE PONERLO MAS FACIL */
+  background: url(./images/neuvilletitio.gif) center/cover;
+}
+
+.color p {
+  margin-left: 3rem;
+  color: crimson;
+}
+
+.titulo {
+  margin-top: 2rem;
+}
+
+.caja-ajustada {
+  width: fit-content;
+  height: fit-content;
+  padding: 1rem;
+  background-color: var(--semi-gray);
+  opacity: 0.8;
+}
+
+.caja2{
+  margin: 10px
+}
+
+.caja-mediana{
+  height: 200px;
+  width: 200px;
+  background-color: #ff005c;
+  text-align: center;
+  border-radius: 16px;
+  margin: 10px;
+  font-size: 10px;
+}
+
+.caja-grande{
+  height: 300px;
+  width: 300px;
+  background-color: var(--purple);
+  text-align: center;
+  border-radius: 16px;
+  margin: 10px
+}
+
+.ordeno{
+  display: flex;
+  flex-direction: row;
+  
+}
+.espacio{
+  margin-bottom: 2rem;
+}
+
+
+/* *Unidades relativas */
+
+.em{
+  font-size: 20px;     /*  sería 20 px porque el elemento padre (caja) tiene 10px */
+}
+
+
+
+
