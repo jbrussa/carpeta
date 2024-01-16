@@ -1,0 +1,25 @@
+* {
+  /* *Estas reglas son convenciones para resetear el comportamiento de los elementos. */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* *Se definen variables que utilizamos mucho en la página */
+  --purple: #d680ff;
+  --white: #fffef3;
+}
+
+body {
+  background-image: url(../images/background.png);
+  background-repeat: repeat; /* Repetir tanto horizontal como verticalmente */
+}
+
+header {
+  width: 100%;
+  height: 8%;
+  background-color: #800080;
+  padding: 2%;
+
+}
