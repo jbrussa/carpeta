@@ -9,100 +9,193 @@
     <!-- Estilos Clase -->
     <link rel="stylesheet" href="style.css" />
 
-    <title>Identificadores</title>
+    <title>CSS</title>
   </head>
 
   <body>
-    <h1>Colores y Background</h1>
-    <ul class="list">
-      <li>
-        <h3>🎨 background-color</h3>
-        <p class="ejemplo">background-color: crimson</p>
-        <div class="caja bg-color espacio"></div>
-      </li>
+    <section>
+      <h1>Colores y Background</h1>
+      <ul class="list">
+        <li>
+          <h3>🎨 background-color</h3>
+          <p class="ejemplo">background-color: crimson</p>
+          <div class="caja bg-color espacio"></div>
+        </li>
 
-      <li>
-        <h3>🎨 background-img</h3>
-        <p class="ejemplo">background-img: url(link)</p>
-        <div class="caja bg-img espacio"></div>
-      </li>
+        <li>
+          <h3>🎨 background-img</h3>
+          <p class="ejemplo">background-img: url(link)</p>
+          <div class="caja bg-img espacio"></div>
+        </li>
 
-      <li>
-        <h3>🎨 background-repeat</h3>
-        <p class="ejemplo">background-repeat: repeat</p>
-        <div class="caja bg-repeat espacio"></div>
-      </li>
+        <li>
+          <h3>🎨 background-repeat</h3>
+          <p class="ejemplo">background-repeat: repeat</p>
+          <div class="caja bg-repeat espacio"></div>
+        </li>
 
-      <li>
-        <h3>🎨 background-attachment</h3>
-        <p class="ejemplo">background-attachment: fixed</p>
-        <div class="caja bg-attachment espacio"></div>
-      </li>
+        <li>
+          <h3>🎨 background-attachment</h3>
+          <p class="ejemplo">background-attachment: fixed</p>
+          <div class="caja bg-attachment espacio"></div>
+        </li>
 
-      <li>
-        <h3>🎨 background-position</h3>
-        <p class="ejemplo">background-position: center</p>
-        <div class="caja bg-position espacio"></div>
-      </li>
+        <li>
+          <h3>🎨 background-position</h3>
+          <p class="ejemplo">background-position: center</p>
+          <div class="caja bg-position espacio"></div>
+        </li>
 
-      <li>
-        <h3>🎨 background-size</h3>
-        <p class="ejemplo">background-size: cover</p>
-        <div class="caja bg-size espacio"></div>
-      </li>
+        <li>
+          <h3>🎨 background-size</h3>
+          <p class="ejemplo">background-size: cover</p>
+          <div class="caja bg-size espacio"></div>
+        </li>
 
-      <li>
-        <h3>🎨 color</h3>
-        <p class="ejemplo">color: crimson</p>
-        <div class="color espacio">
-          <p>Hola mundo</p>
-        </div>
-      </li>
-    </ul>
+        <li>
+          <h3>🎨 color</h3>
+          <p class="ejemplo">color: crimson</p>
+          <div class="color espacio">
+            <p>Hola mundo</p>
+          </div>
+        </li>
+      </ul>
+    </section>
 
-    <h1 class="titulo">Unidades de medida en CSS</h1>
-    <ul class="list">
-      <h2>Unidades Absolutas</h2>
-      <li>
-        <h3>👉🏼 px (más usados)</h3>
-        <div class="ordeno">
-          <div class="caja caja2">100px</div>
-          <div class="caja-mediana">200px</div>
-          <div class="caja-grande">300px</div>
-        </div>
-        <p class="espacio">Otras medidas no utilizadas: cm, mm, in, pt, pc.</p>
-      </li>
+    <section>
+      <h1 class="titulo">Unidades de medida en CSS</h1>
+      <ul class="list">
+        <h2>Unidades Absolutas</h2>
+        <li>
+          <h3>👉🏼 px (más usados)</h3>
+          <div class="ordeno">
+            <div class="caja caja2">100px</div>
+            <div class="caja-mediana">200px</div>
+            <div class="caja-grande">300px</div>
+          </div>
+          <p class="espacio">
+            Otras medidas no utilizadas: cm, mm, in, pt, pc.
+          </p>
+        </li>
 
-      <h2>Unidades Relativas</h2>
-      <li>
-        <h3>👉🏼 em (más usado)</h3>
-        <div class="caja-mediana em">Texto en em. N x elemento padre</div>
+        <h2>Unidades Relativas</h2>
+        <li>
+          <h3>👉🏼 em (más usado)</h3>
+          <div class="caja-mediana em">Texto en em. N x elemento padre</div>
+        </li>
 
-      </li>
+        <li>
+          <h3>👉🏼 rem (más usado)</h3>
+          <div class="caja-grande rem">Texto en rem. N x defecto</div>
+        </li>
 
-      <li>
-        <h3>👉🏼 rem (más usado)</h3>
-        <div class="caja-grande rem">Texto en rem. N x defecto</div>
-      </li>
+        <li>
+          <h3>👉🏼 % (porcentaje)</h3>
+          <div class="caja-mediana">
+            <div class="porcentaje">Porcentaje</div>
+            <!-- * Para superponer cuadrados, pongo un div DENTRO del otro -->
+          </div>
+        </li>
 
-      <li><h3>👉🏼 % (porcentaje)</h3>
-        <div class="caja-mediana">
-            <div class="porcentaje">Porcentaje</div>  <!-- * Para superponer cuadrados, pongo un div DENTRO del otro -->
-        </div>
-      </li>
-
-      <li><h3>👉🏼 vh (viewport height)</h3>
-        <div class="caja-mediana">
+        <li>
+          <h3>👉🏼 vh (viewport height)</h3>
+          <div class="caja-mediana">
             <div class="vh">Relativo a la altura de la pantalla</div>
-        </div>
-      </li>
+          </div>
+        </li>
 
-      <li>
-        <h3>👉🏼 vw (viewport width)</h3>
-        <div class="caja-mediana">
+        <li>
+          <h3>👉🏼 vw (viewport width)</h3>
+          <div class="caja-mediana">
             <div class="vw">Relativo al ancho de la pantalla</div>
-        </div>
-      </li>
-    </ul>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h1>Tipografías</h1>
+      <p>
+        Para esto podemos descargarlas o utilizarlas de algún servicio en la
+        nube, como <a href="https://fonts.google.com/">Google Fonts</a>
+      </p>
+      <h2>Algunos estilos para textos</h2>
+      <ul class="list">
+        <li>
+          <h3>👉🏼font-family</h3>
+          <p>Definimos la familia de la fuente</p>
+          <div class="ejemplo">font-family:'Indie Flower'</div>
+          <div class="ejemplo2 familia">Texto con fuente pesonalizada</div>
+        </li>
+        <li>
+          <h3>👉🏼font-weight</h3>
+          <p>Definimos el peso de la fuente</p>
+          <div class="ejemplo">font-weight: bold</div>
+          <div class="ejemplo2 font-weight">Texto con font weight</div>
+        </li>
+        <li>
+          <h3>👉🏼font-style</h3>
+          <p>Definimos normal/italic/oblique</p>
+          <div class="ejemplo">font-style: italic</div>
+          <div class="ejemplo2 font-style">Texto en cursiva</div>
+        </li>
+        <li>
+          <h3>👉🏼font-size</h3>
+          <p>Definimos tamaño de la fuente</p>
+          <div class="ejemplo">font-size: 2rem</div>
+          <div class="ejemplo2 font-size">Texto con tamaño personalizado</div>
+        </li>
+        <li>
+          <h3>👉🏼letter-spacing</h3>
+          <p>Definimos espaciado entre letras</p>
+          <div class="ejemplo">letter-spacing: 10px</div>
+          <div class="ejemplo2 letter-spacing">Texto con letter-spacing</div>
+        </li>
+        <li>
+          <h3>👉🏼word-spacing</h3>
+          <p>Definimos espaciado entre palabras</p>
+          <div class="ejemplo">word-spacing: 10px</div>
+          <div class="ejemplo2 word-spacing">Texto con word-spacing</div>
+        </li>
+        <li>
+          <h3>👉🏼line-height</h3>
+          <p>Definimos distancia entre renglones</p>
+          <div class="ejemplo">line-height: 55px</div>
+          <div class="ejemplo2 line-height">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+            assumenda esse temporibus eos. Blanditiis consequuntur culpa magni
+            modi itaque saepe consequatur nulla ad, officia repudiandae est,
+            tenetur quos ullam accusantium corporis laboriosam aliquid doloribus
+            a rem repellat! Commodi ea magni minima pariatur fugit, quo eveniet
+            eaque ipsa nihil dolores facilis.
+          </div>
+        </li>
+        <li>
+          <h3>👉🏼text-align</h3>
+          <p>Alinear texto</p>
+          <div class="ejemplo">text-align: center</div>
+          <div class="ejemplo2 text-align">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
+            aut similique quidem obcaecati neque iure mollitia accusantium
+            officia soluta fuga. Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Suscipit cum maxime consequuntur, sit nemo velit
+            odio. Beatae ducimus asperiores sed unde aut, a atque, quo
+            consectetur ea earum numquam nobis?
+          </div>
+        </li>
+        <li>
+          <h3>👉🏼text-transform</h3>
+          <p>Definir uppercase/lowercase/capitalize</p>
+          <div class="ejemplo">text-transform: uppercase</div>
+          <div class="ejemplo2 text-transform">Texto en mayus</div>
+        </li>
+        <li>
+          <h3>👉🏼text-decoration</h3>
+          <p>Definir underline/overline/line-throught</p>
+          <div class="ejemplo">text-decoration: underline</div>
+          <div class="ejemplo2 text-decoration">Texto decorado</div>
+        </li>
+      </ul>
+    </section>
   </body>
 </html>
