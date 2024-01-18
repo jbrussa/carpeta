@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Box model</title>
+  </head>
+  <body>
+    <section>
+      <h1>Box Model</h1>
+      <h2>Overflow</h2>
+      <ul class="list">
+        <li>
+          <h3>👉🏼visible</h3>
+        </li>
+        <li>
+          <h3>👉🏼hidden</h3>
+        </li>
+        <li>
+          <h3>👉🏼scroll</h3>
+        </li>
+        <li>
+          <h3>👉🏼auto</h3>
+        </li>
+      </ul>
+
+      <div class="caja-overflow">
+        <p>visible</p>
+        <p class="visible cajita">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad porro
+          voluptas distinctio molestiae nemo soluta tempore earum magnam enim
+          labore. L
+        </p>
+
+        <p>hidden</p>
+        <div class="hidden cajita">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem soluta
+          suscipit voluptate rem voluptates quidem laudantium. Minus molestiae
+          animi maxime, sed, nihil, culpa non soluta suscipit in quaerat optio
+          odit?
+        </div>
+
+        <p>scroll</p>
+        <div class="scroll cajita">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam,
+          dicta repellat dignissimos facilis sit quos dolor beatae aspernatur
+          omnis voluptates.
+        </div>
+
+        <p>auto</p>
+        <div class="auto cajita">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. At laborum
+          delectus soluta blanditiis unde saepe. Placeat facilis delectus
+          voluptatem distinctio.
+        </div>
+      </div>
+    </section>
+
+    <hr class="hr" />
+
+    <section>
+      <h2>Padding</h2>
+      <p>
+        Es el área del contenido, separación entre contenido y el borde de la
+        caja
+      </p>
+      <div class="ejemplo">padding: 10px 5px 20px 15px</div>
+      <div class="ejemplo2 expadd">Texto con padding</div>
+      <p>
+        Para acordanos donde va cada valor, pensar en el sentido de las aguajs
+        del reloj. (También sirve para el margin). Si ponemos solo dos valores,
+        el primero corresponde a arriba y abajo, y el segundo a los costados. Si
+        hay tres valores, es arriba, costados y abajo.
+      </p>
+    </section>
+
+    <hr class="hr" />
+    <section>
+      <h2>Border</h2>
+      <p>Nos permite modificar el aspecto de los bordes</p>
+      <div class="ejemplo2">
+        <p class="border">Solid</p>
+        <p class="dashed">Dashed</p>
+        <p class="dotted">Dotted</p>
+        <p class="double">Double</p>
+      </div>
+    </section>
+
+    <hr class="hr" />
+
+    <section>
+        <h2> Margin</h2>
+        <p> Separación entre una caja y otra</p>
+        <div class="ejemplo">margin: 10px 5px 20px 15px</div>
+        <div class="ejemplo2" >
+            <div class="box"></div>
+            <div class="box margin"></div>
+        </div>
+        
+    </section>
+
+
+  </body>
+</html>

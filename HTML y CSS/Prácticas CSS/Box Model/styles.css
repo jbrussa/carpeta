@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800;900&display=swap"); /* * Importamos la fuente a utilizar */
+
+* {
+  /* *Estas reglas son convenciones para resetear el comportamiento de los elementos. */
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* *Se definen variables que utilizamos mucho en la página */
+  /* Backgrounds */
+  --primary-bg: #131415;
+  --secondary-bg: #282828;
+  --semi-black: #17191b;
+  --semi-gray: #6b7280;
+  --light-gray: #9ca3af;
+
+  /* Texts */
+  --dark-white: #e5e7eb;
+  --semi-white: #f9fafb;
+  --text-white: #f3f4f6;
+  --white: #fff;
+
+  /* Decoration */
+  --rose: #e11d48;
+  --light-red: #ff005c;
+  --purple: #8c54fb;
+}
+
+body {
+  background-color: var(--primary-bg);
+  color: var(--semi-white);
+  font-family: "Poppins", sans-serif;
+  padding: 3rem; /* *padding es el espacio entre el contenido y el borde, rem es una unidad de medida en píxeles, 3*px que tengo */
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 800; /* * qué tan grueso es el título */
+  margin-bottom: 2rem; /* *distancia entre los demás elementos de abajo */
+}
+
+h2 {
+  color: var(--purple);
+  margin: 1rem;
+  font-size: 1.8rem;
+}
+h3 {
+  color: var(--rose);
+  margin: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+p {
+  max-width: 950px;
+  color: var(--text-white);
+  margin-left: 20px;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.caja-overflow {
+  width: 90%;
+  height: 8%;
+  background-color: var(--secondary-bg);
+  display: flex;
+  gap: 40px;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.visible {
+  overflow: visible;
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+.scroll {
+  overflow: scroll;
+}
+.auto {
+  overflow: auto;
+}
+
+.cajita {
+  width: 200px;
+  height: 100px;
+}
+
+.hr {
+  border: 2px solid var(--rose);
+  background-color: var(--rose);
+  max-width: 90%;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.ejemplo {
+  color: var(--text-white);
+  margin: 1rem;
+  margin-left: 3rem;
+  background-color: var(--semi-gray);
+  border-radius: 10px;
+  padding: 5px;
+  width: fit-content;
+}
+
+.ejemplo2 {
+  color: var(--text-white);
+  margin: 1rem 3rem;
+  background-color: var(--secondary-bg);
+  border-radius: 10px;
+  padding: 7px;
+  width: 80%;
+}
+
+.expadd {
+  padding: 10px;
+  background-color: crimson;
+}
+
+.border {
+  border: 1px solid purple;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.dashed {
+  border: 1px dashed var(--rose);
+  margin-bottom: 10px;
+  padding: 5px;
+
+}
+
+.dotted{
+  border: 1px dotted blue;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.double{
+  border: 1px double orange;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: crimson;
+  border-radius: 1rem;
+}
+
+.margin{
+  margin: 10px;
+}
