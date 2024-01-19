@@ -7,8 +7,8 @@
     <title>Box model</title>
   </head>
   <body>
+    <h1>Box Model</h1>
     <section>
-      <h1>Box Model</h1>
       <h2>Overflow</h2>
       <ul class="list">
         <li>
@@ -90,16 +90,134 @@
     <hr class="hr" />
 
     <section>
-        <h2> Margin</h2>
-        <p> Separación entre una caja y otra</p>
-        <div class="ejemplo">margin: 10px 5px 20px 15px</div>
-        <div class="ejemplo2" >
-            <div class="box"></div>
-            <div class="box margin"></div>
-        </div>
-        
+      <h2>Margin</h2>
+      <p>Separación entre una caja y otra</p>
+      <div class="ejemplo">margin: 10px 5px 20px 15px</div>
+      <div class="ejemplo2">
+        <div class="box"></div>
+        <div class="box margin"></div>
+      </div>
     </section>
 
+    <hr class="hr" />
+    <h1>Flexbox</h1>
 
+    <section>
+      <h2>Flex direction</h2>
+      <p>Definimos la dirección del flex</p>
+      <div class="ejemplo2">
+        <p>row (por defecto)</p>
+        <div class="row">
+          <div class="caja-flex"><p>1</p></div>
+          <div class="caja-flex"><p>2</p></div>
+          <div class="caja-flex"><p>3</p></div>
+        </div>
+      </div>
+      <div class="ejemplo2">
+        <p>row-reverse</p>
+        <div class="row-reverse">
+          <div class="caja-flex"><p>1</p></div>
+          <div class="caja-flex"><p>2</p></div>
+          <div class="caja-flex"><p>3</p></div>
+        </div>
+      </div>
+
+      <div class="ejemplo2">
+        <p>column</p>
+        <div class="column">
+          <div class="caja-flex"><p>1</p></div>
+          <div class="caja-flex"><p>2</p></div>
+          <div class="caja-flex"><p>3</p></div>
+        </div>
+      </div>
+
+      <div class="ejemplo2">
+        <p>column-reverse</p>
+        <div class="column-reverse">
+          <div class="caja-flex"><p>1</p></div>
+          <div class="caja-flex"><p>2</p></div>
+          <div class="caja-flex"><p>3</p></div>
+        </div>
+      </div>
+
+      <h2>Flex Wrap</h2>
+      <p>
+        Por defecto todos los elementos flex ocupan una sola línea (nowrap) y
+        todo el ancho.
+      </p>
+      <div class="ejemplo2">
+        <p>wrap</p>
+        <div class="wrap">
+          <!-- * se usa cuando se achica la pantalla, los cuadrados se acomoden -->
+          <div class="caja-flex"><p>1</p></div>
+          <div class="caja-flex"><p>2</p></div>
+          <div class="caja-flex"><p>3</p></div>
+        </div>
+
+        <p>nowrap</p>
+        <div class="nowrap">
+          <div class="caja-flex"><p>1</p></div>
+          <div class="caja-flex"><p>2</p></div>
+          <div class="caja-flex"><p>3</p></div>
+        </div>
+      </div>
+
+      <h2>Flex flow</h2>
+      <p>Básicamente abrevia flex-direction y flex-wrap</p>
+
+      <h2>justify-content</h2>
+      <p>Con esta propiedad definimos la alineación a lo largo del eje x</p>
+      <div class="ejemplo2">
+        <p>flex-start</p>
+        <div class="start">
+          <div class="caja-flex"><p>1</p></div>
+          <div class="caja-flex"><p>2</p></div>
+          <div class="caja-flex"><p>3</p></div>
+        </div>
+      </div>
+      <div class="ejemplo2">
+        <p>flex-end</p>
+        <div class="end">
+          <div class="caja-flex"><p>1</p></div>
+          <div class="caja-flex"><p>2</p></div>
+          <div class="caja-flex"><p>3</p></div>
+        </div>
+      </div>
+
+      <div class="ejemplo2">
+        <p>center</p>
+        <div class="center">
+          <div class="caja-flex"><p>1</p></div>
+          <div class="caja-flex"><p>2</p></div>
+          <div class="caja-flex"><p>3</p></div>
+        </div>
+      </div>
+
+      <div class="ejemplo2">
+        <p>space-between</p>
+        <div class="between">
+          <div class="caja-flex"><p>1</p></div>
+          <div class="caja-flex"><p>2</p></div>
+          <div class="caja-flex"><p>3</p></div>
+        </div>
+      </div>
+
+      <div class="ejemplo2">
+        <p>space-around</p>
+        <div class="around">
+          <div class="caja-flex"><p>1</p></div>
+          <div class="caja-flex"><p>2</p></div>
+          <div class="caja-flex"><p>3</p></div>
+        </div>
+      </div>
+      <div class="ejemplo2">
+        <p>space-evenly</p>
+        <div class="evenly">
+          <div class="caja-flex"><p>1</p></div>
+          <div class="caja-flex"><p>2</p></div>
+          <div class="caja-flex"><p>3</p></div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

@@ -55,7 +55,6 @@ h3 {
 p {
   max-width: 950px;
   color: var(--text-white);
-  margin-left: 20px;
 }
 
 .list {
@@ -135,28 +134,113 @@ p {
   border: 1px dashed var(--rose);
   margin-bottom: 10px;
   padding: 5px;
-
 }
 
-.dotted{
+.dotted {
   border: 1px dotted blue;
   margin-bottom: 10px;
   padding: 5px;
 }
 
-.double{
+.double {
   border: 1px double orange;
   margin-bottom: 10px;
   padding: 5px;
 }
 
-.box{
+.box {
   width: 100px;
   height: 100px;
   background-color: crimson;
   border-radius: 1rem;
 }
 
-.margin{
+.margin {
   margin: 10px;
+}
+.caja-flex {
+  width: 100px;
+  height: 100px;
+  background-color: #8c54fb;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row; /* *Igual viene por defecto si le pongo display flex al padre (o sea este) */
+  gap: 10px; /* *nos permite dar espacio entre elementos, también se puede usar margin pero bueno este está bueno también */
+}
+
+.row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.column-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 10px;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 250px; /* *Lo uso para que ocupe como máximo tantos pixeles */
+  background-color: gray;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.nowrap {
+  display: flex;
+  background-color: gray;
+  padding: 1rem;
+  border-radius: 1rem;
+  flex-wrap: nowrap; /* *por defecto, si seteo un ancho, los elementos se achican para poder entrar, a diferencia del wrap que los tira abajo */
+  max-width: 250px;
+  gap: 10px;
+}
+
+.start {
+  display: flex;
+  gap: 10px;
+  justify-content: start;
+}
+
+.end{
+  display: flex;
+  gap:10px;
+  justify-content: end;
+}
+
+.center{
+  display: flex;
+  gap:10px;
+  justify-content: center;
+}
+.between{
+  display: flex;
+  gap:10px;
+  justify-content: space-between;
+}
+.around{
+  display: flex;
+  gap:10px;
+  justify-content: space-around;
+}
+.evenly{
+  display: flex;
+  gap:10px;
+  justify-content: space-evenly;
 }
