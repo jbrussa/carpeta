@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Rubik:wght@300;400&family=Tinos:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Hind+Madurai:wght@300&display=swap");
+
+
+body {
+  background-image: url(../images/background2.jpg);
+  background-size: cover;
+  background-repeat: repeat-y; /* Repetir tanto horizontal como verticalmente */
+  background-attachment: fixed;
+}
+
+header {
+  width: 100vw;
+  height: 7%;
+  background-color: var(--semi-black);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.9);
+  display: flex;
+}
+
+.pick {
+  font-size: 3rem;
+  font-family: "Bungee Shade";
+  padding: 0.5;
+}
+.logo {
+  width: 48%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 2rem;
+}
+
+.menu {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10%;
+}
+
+.pagina {
+  font-family: "Rubik";
+}
+
+a {
+  text-decoration: none;
+}
+
+.contenedor-menu {
+  box-shadow: -10px 0 20px rgba(128, 128, 128, 0.3),
+    10px 0 20px rgba(128, 128, 128, 0.3);
+  width: 30%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.8rem;
+}
+
+.logoprincipal {
+  width: 9%;
+  height: auto; /* Para mantener la proporción original */
+  margin-left: 1rem;
+}
+
+.cuerpo {
+  width: 100vw;
+  height: 60vh;
+}
+
+.section2 {
+  background-color: var(--semi-black);
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+}
+
+.section2a {
+  padding: 1%;
+  margin-left: 1%;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+}
+
+.section2b {
+  padding: 2%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  letter-spacing: 0.01rem;
+  word-spacing: 0.01rem;
+  line-height: 2rem;
+}

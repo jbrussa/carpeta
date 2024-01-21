@@ -1,0 +1,36 @@
+/*  Estilos base */
+
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Rubik:wght@300;400&family=Tinos:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Hind+Madurai:wght@300&display=swap");
+
+* {
+  /* *Estas reglas son convenciones para resetear el comportamiento de los elementos. */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--semi-white);
+}
+
+:root {
+  /* *Se definen variables que utilizamos mucho en la página */
+  --semi-black: #17191b;
+  --dark-white: #e5e7eb;
+  --semi-white: #f9fafb;
+  --text-white: #f3f4f6;
+  --white: #fffef3;
+}
+
+.titulo {
+  font-family: "Tinos regular 400 italic";
+  font-size: 5rem;
+  color: var(--dark-white);
+}
+.subtitulo {
+  font-family: "Rubik";
+}
+
+p {
+  font-family: "Hind Madurai";
+  color: var(--dark-white);
+}
