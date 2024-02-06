@@ -63,6 +63,55 @@ console.log(incrementador);
 let incrementador2 = n1++ * n2; /* acá multiplica, y después suma 1 */
 console.log(incrementador2);
 
-
 // * Operadores de comparación
 
+/* De igualdad */
+console.log("igualdad");
+console.log(5 == 5);
+console.log(5 == "5");
+
+/*  Igualdad estricta */
+console.log("igualdad estricta");
+console.log(5 === 5);
+console.log(5 === "5");
+
+/* Desigualdad */
+console.log("Desigualdad");
+console.log(5 != 5);
+console.log(5 != "5");
+
+/* Desigualdad estricta */
+console.log("Desigualdad estricta");
+console.log(5 !== 5);
+console.log(5 !== "5");
+
+/* Mayor que */
+console.log("Mayor que");
+console.log(10 > 5);
+console.log(5 > 5);
+
+console.log("Mayor o igual que");
+console.log(10 >= 5);
+console.log(5 >= 5);
+
+/* Menor que */
+console.log("Menor que");
+console.log(10 < 5);
+console.log(5 < 5);
+
+console.log("Menor o igual que");
+console.log(10 <= 5);
+console.log(5 <= 5);
+
+/* And */
+console.log("And");
+console.log(5 < 10 && 10 > 5);
+
+/* Or */
+console.log("Or");
+console.log(5 > 10 || 10 > 5);
+
+/* Negar */
+console.log("Negar");
+let algoTrue = 5 < 10;
+console.log(!algoTrue);
