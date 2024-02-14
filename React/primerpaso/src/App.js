@@ -1,12 +1,15 @@
 import "./App.css";
 import Titulo from "./components/Titulo/Titulo";
 import Parrafo from "./components/Parrafo/Parrafo";
+import {Container} from "./components/Container/Container";
 
 function App() {
   return (
-    <>
-      <Titulo />;<Parrafo> Holaaa </Parrafo>
-    </>
+    <Container>
+      <Titulo/>
+      <Parrafo> Holaaa </Parrafo>
+    </Container>
+  
   );
 }
 
